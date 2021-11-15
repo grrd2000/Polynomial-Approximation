@@ -128,7 +128,7 @@ int main()
 	double* X, * Y, *a;
 
 	fstream data;
-	data.open("data.txt", ios::in);
+	data.open("data_complex.txt", ios::in);
 
 	if (!data.good())
 	{
